@@ -25,6 +25,9 @@ public class Employee {
 		Employee e1 = getObject();
 		System.out.println(System.identityHashCode(e1));
 
+		Employee e2 = getObject();
+		System.out.println(System.identityHashCode(e2));
+
 	}
 
 }
